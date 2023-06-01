@@ -1,7 +1,9 @@
 # core-fly
 Station Core deployed to [fly.io](https://fly.io)
 
-To deploy, inside the respective folder:
+To deploy, push to `main`.
+
+To deploy manually, inside the respective folder:
 
 ```bash
 $ fly deploy
