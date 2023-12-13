@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/stable"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Europe/Berlin"
+    reviewers:
+      - "bajtos"
+      - "juliangruber"
+  - package-ecosystem: "docker"
+    directory: "/experimental"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Europe/Berlin"
+    reviewers:
+      - "bajtos"
+      - "juliangruber"
