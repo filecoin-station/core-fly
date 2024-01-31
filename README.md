@@ -11,4 +11,4 @@ $ fly deploy
 
 Deployments:
 - [`stable`](https://fly.io/apps/core-fly)
-- [`experimental`](https://fly.io/apps/core-fly-experimental) (`$ station --experimental`)
+<!--- [`experimental`](https://fly.io/apps/core-fly-experimental) (`$ station --experimental`)-->
