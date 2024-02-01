@@ -9,12 +9,3 @@ updates:
     reviewers:
       - "bajtos"
       - "juliangruber"
-  - package-ecosystem: "docker"
-    directory: "/experimental"
-    schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "Europe/Berlin"
-    reviewers:
-      - "bajtos"
-      - "juliangruber"
