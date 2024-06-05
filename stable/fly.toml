@@ -5,3 +5,7 @@
 
 app = "core-fly"
 primary_region = "cdg"
+
+[mounts]
+  source = "core_fly_state"
+  destination = "/home/node/.local/state/"
