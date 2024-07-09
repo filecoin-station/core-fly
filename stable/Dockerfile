@@ -1,2 +1,2 @@
-FROM ghcr.io/filecoin-station/core:21.1.0
+FROM ghcr.io/filecoin-station/core:21.1.1
 ENV FIL_WALLET_ADDRESS=0x000000000000000000000000000000000000dEaD
