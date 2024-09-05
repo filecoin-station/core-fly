@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - main
-  workflow_run:
-    workflows: ["Dependabot Deploy Check"]
-    types: 
-      - completed
 jobs:
   stable:
     runs-on: ubuntu-latest

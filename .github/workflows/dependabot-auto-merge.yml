@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
+      - name: Authenticate cli with a PAT
+        run: echo "${{ secrets.DEPENDABOT_TOKEN }}" | gh auth login --with-token
       - name: Enable auto-merge for Dependabot PRs
         run: gh pr merge --auto --squash "$PR_URL"
         env:
